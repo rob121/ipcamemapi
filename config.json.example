@@ -1,0 +1,6 @@
+{
+  "port": "25",
+  "usetls": "false",
+  "debug": "false",
+  "action_url": "http://192.168.1.210/apps/api/8/devices/%s/active?access_token="   
+}
