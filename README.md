@@ -1,7 +1,11 @@
 # IP Cam Email Api
 
-This was designed for amcrest ip cameras (but would work for other brands) to receive a motion alert email and trigger a http request for integration with a home automation system, I use this specifically for motion detection.
+This smtp server was designed for amcrest ip cameras (but would work for other brands) to receive a motion alert email and trigger a http request for integration with a home automation system, I use this specifically for motion detection.
 
+
+## Operating Principle
+
+When an email comes in the To: address is parsed, and the segment before the "@" is sent to action_url in the configuration.
 
 ## Configuration
 
